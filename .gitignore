@@ -1,12 +1,17 @@
-# .gitignore
+# .gitignore (Versión Profesional)
 
 # Ignorar la carpeta de secretos
 .streamlit/secrets.toml
 
-# Ignorar carpetas de entorno de Python (si usas uno)
+# Ignorar carpetas de entorno de Python
 venv/
 .venv/
 
-# Ignorar archivos de sistema
+# Ignorar archivos y carpetas de sistema y caché
 __pycache__/
 *.pyc
+.vscode/
+
+# Ignorar todos los scripts de prueba
+test_*.py
+prueba_*.py
