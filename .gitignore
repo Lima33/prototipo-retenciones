@@ -1,0 +1,12 @@
+# .gitignore
+
+# Ignorar la carpeta de secretos
+.streamlit/secrets.toml
+
+# Ignorar carpetas de entorno de Python (si usas uno)
+venv/
+.venv/
+
+# Ignorar archivos de sistema
+__pycache__/
+*.pyc
